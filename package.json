@@ -1,0 +1,37 @@
+{
+  "name": "WarplyProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "npx jetify"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^1.4.2",
+    "react": "^16.8.6",
+    "react-native": "0.60.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-map-clustering": "^1.3.2",
+    "react-native-maps": "^0.24.2",
+    "react-native-permissions": "^1.1.1",
+    "react-navigation": "^3.11.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "jetifier": "^1.6.1",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
